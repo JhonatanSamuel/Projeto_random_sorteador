@@ -66,3 +66,27 @@ button:hover {
 button:active {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 750px) {
+    img {
+        height: 10rem;
+    }
+
+    p{
+        font-size: 28px;
+    }
+
+    input {
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
+
+    .go {
+        margin-bottom: 20px;
+    }
+    
+    button {
+        width: 100%;
+    }
+}
