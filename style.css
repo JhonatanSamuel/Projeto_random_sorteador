@@ -15,6 +15,13 @@ body {
     min-height: 100vh;
 }
 
+h3 {
+    font-size: 4rem;
+    color: #f1f1f1c8;
+    margin-top: 70px;
+}
+
+
 p {
     font-size: 32px;
     font-weight: 400;
@@ -22,7 +29,7 @@ p {
     font-style: normal;
     line-height: 38px;
     text-align: center;
-    margin-top: 126px;
+   
     margin-bottom: 26px;
 }
 
@@ -53,7 +60,7 @@ button {
     color: #ffffff;
     height: 72px;
     width: 342px;
-    margin-top: 80px;
+    margin-top: 60px;
     border: none;
     cursor: pointer;
     
@@ -70,6 +77,10 @@ button:active {
 @media screen and (max-width: 750px) {
     img {
         height: 10rem;
+    }
+
+    h3 {
+        font-size: 70px;
     }
 
     p{

@@ -1,4 +1,4 @@
-
+const resultado = document.querySelector('h3');
 
 function sortearNumero() {
     const min = Math.ceil(document.querySelector('.go').value)
@@ -6,7 +6,7 @@ function sortearNumero() {
 
     const result = Math.floor(Math.random() * (max - min + 1)) + min;
     
-    alert(result)
+    resultado.innerHTML = result
 
 }
 
